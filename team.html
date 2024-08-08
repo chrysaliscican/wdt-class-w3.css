@@ -2,108 +2,197 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title> The Daniels - Their Film and Me </title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="apple-touch-icon" href="apple-icon.png">
+  <title>The Daniels - Their Film and Me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-icon.png">
+  <link rel="stylesheet" href="css/w3css.css">
+  <link rel="stylesheet" href="css/w3-theme-black.css">
+
+
+  <style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: Aptos, Verdana, sans-serif;
+    }
+  </style>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4638549725433695"
+    crossorigin="anonymous"></script>
+  <script src="//www.p2hp.com/tj.js"></script>
 </head>
 
-<body class="body-team"> <!--This is how to make the whole webpage black-->
-  <header class="header-team">
-    <a href="index.html" target="_self"><img class="logo-team" src="images/logo4-resized.png" alt="site logo with two Earths separated by an explosive flash with the intitials for the site"></a>
-    <h1>The Daniels - Their Film and Me</h1>
-  </header>
+<body>
 
-  <main class="flex-main">
-      <nav class="flex-p-nav">
-        <ul class="flex-c-nav">
-          <li class="flex-c-nav"><a href="index.html">Home</a></li>
-          <li class="flex-c-nav"><a href="faq.html">Frequently Asked Questions</a></li>
-          <li class="flex-c-nav"><a href="contact-us.html">Contact Us</a></li>
-          <li class="flex-c-nav"><a href="team.html">Meet Our Team</a></li>
-          <li class="flex-c-nav"><a href="products.html">What We Do</a></li>
-          <li class="flex-c-nav"><a href="about-us.html">About Us</a></li>
-        </ul>
-      </nav>
-      <!-- In order to create items within a flexbox, each item must be placed in its own container (header, article, section,etc. For these nav links, it would be easier to use the unordered list items which creates a container for each item with <li> -->
+  <!-- Navbar -->
+  <div class="w3-top" id="topnavbar">
+    <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
+      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-black w3-large w3-theme" href="javascript:void(0)"
+        onclick="w3_open()"><i class="fa fa-bars"></i></a>
+      <img class="logo-w3" src="images/logo4-resized.png"
+        alt="site logo with two Earths separated by an explosive flash with the initials for the site">
+      <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black button-w3-text-yellow">Home</a>
+      <a href="faq.html"
+        class="w3-bar-item w3-button w3-hide-small button-w3-text-yellow w3-hover-black active-w3-orange">Frequently
+        Asked Questions</a>
+      <a href="contact-us.html"
+        class="w3-bar-item w3-button w3-hide-small w3-hover-black button-w3-text-yellow active-w3-orange">Contact
+        Us</a>
+      <a href="team.html"
+        class="w3-bar-item w3-button w3-hide-small w3-hover-black button-w3-text-yellow active-w3-orange">Meet
+        Our Team</a>
+      <a href="products.html"
+        class="w3-bar-item w3-button w3-hide-small w3-hover-black button-w3-text-yellow active-w3-orange">What
+        We Do</a>
+      <a href="about-us.html"
+        class="w3-bar-item w3-button w3-hide-small w3-hide-medium button-w3-text-yellow w3-hover-black active-w3-orange">About
+        Us</a>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme w3-animate-left" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+      class="w3-right w3-xlarge w3-sidebar-js-padding w3-hover-black w3-hide-large" title="Close Menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <!-- <h4 class="w3-bar-item"><b>Menu</b></h4> -->
+    <a class="w3-bar-item w3-button w3-hover-black" href="#Daniels">The Daniels</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#Movie">Their Movie</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#Physics">Physics</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#Mathematics">Mathematics</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#Art">Art</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#Me">Me</a>
+  </nav>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+    id="myOverlay"></div>
+
+  <!-- Main content: shift it to the right by 175 pixels when the sidebar is visible -->
+  <div class="w3-main w3-padding-top-32" style="margin-left:175px">
 
     <article class="flex-p-article">
-    <h2 class="h2-team">Meet Our Team</h2>
+      <h2 class="h2-team">Meet Our Team</h2>
 
-     <section class="flex-section1">
-      <h3>Ellip Sis</h3>
-      <h4>Software Development Manager</h4>
+      <section class="flex-section1">
+        <h3>Ellip Sis</h3>
+        <h4>Software Development Manager</h4>
         <figure>
           <img src="images/humanoid-ti.png" alt="humanoid staring at ground" class="flex-img1">
           <figcaption>Ellip at what is left of Yellowstone National Park</figcaption>
         </figure>
         <p>Skillfully builds the skeleton of our site with HTML (HyperText Markup Language).
-        Produces a pleasing effects via general CSS (Cascading Style Sheets) and CSS Box Model.
-        Utilizes CSS Flexbox so our audiences enjoy the benefits of responsive web design.</p>
-    </section>
+          Produces a pleasing effects via general CSS (Cascading Style Sheets) and CSS Box Model.
+          Utilizes CSS Flexbox so our audiences enjoy the benefits of responsive web design.</p>
+      </section>
 
-    <section class="flex-section2">
-      <h3>Semi Colon</h3>
-      <h4>Communications Manager</h4>
+      <section class="flex-section2">
+        <h3>Semi Colon</h3>
+        <h4>Communications Manager</h4>
         <figure>
           <img src="images/humanform-ti.png" alt="human form facing forward" class="flex-img2">
-            <figcaption>Semi's third mugshot</figcaption>
+          <figcaption>Semi's third mugshot</figcaption>
         </figure>
         <p>Finds an eclectic array of content to share with the world... and beyond.
-        Utilizes current events in education, entertainment, and world affairs as seeds of creation.
-        Captures stunning images via artificial intelligent software and/or classic photography, appeasing our audience's taste
-        for hallucinatory visuals.
+          Utilizes current events in education, entertainment, and world affairs as seeds of creation.
+          Captures stunning images via artificial intelligent software and/or classic photography, appeasing our
+          audience's
+          taste
+          for hallucinatory visuals.
         </p>
-    </section>
+      </section>
 
-    <section class="flex-section3">
-      <h3>Hash Tag</h3>
-      <h4>Operations Manager</h4>
+      <section class="flex-section3">
+        <h3>Hash Tag</h3>
+        <h4>Operations Manager</h4>
         <figure>
-          <img src="images/humanform2-ti.png" alt="hypnotic human figure facing forward with red eyes" class="flex-img3">
-            <figcaption>Hash dematerializing at the end of a long day's work.</figcaption>
+          <img src="images/humanform2-ti.png" alt="hypnotic human figure facing forward with red eyes"
+            class="flex-img3">
+          <figcaption>Hash dematerializing at the end of a long day's work.</figcaption>
         </figure>
         <p>Orchestrates funding from private donors with finesse.
-        Strategically funds and finds additional support for our endeavors.
-        Rallies the energies and ideas of those wanting to gain experience in IT services through the utilization of volunteer
-        programs for youth and adults.
+          Strategically funds and finds additional support for our endeavors.
+          Rallies the energies and ideas of those wanting to gain experience in IT services through the utilization of
+          volunteer
+          programs for youth and adults.
         </p>
-    </section>
- 
-   </article>
-  </main>
+      </section>
 
-  <footer class="flex-p-footer">
- 
-   <pre class="flex-footer1">
-   
-   <strong class="footer-strong" >Webmaster for The Daniels - Their Film and Me Site</strong>
-   <a href="mailto:cican42814@gmail.com">Email Webmaster</a>
-   &copy; 2024
-   </pre>
+    </article>
+    </main>
 
+    <!-- Grid -->
+    <div class="w3-row w3-padding">
 
-      <pre class="flex-footer2">
+    </div>
 
-      <strong class="footer-strong">Site Development Resources</strong>
-      <a href="https://www.w3schools.com/">W3Schools</a>
-      <a href="https://pixabay.com/images/search/dimensions/">Pixabay</a>
-      </pre>
+    <footer class="w3-row w3-theme w3-text-orange" id="myFooter">
 
-        <nav class="flex-p-footer-nav">
-          <ul class="ul-flex-footer3">
-            <li class="flex-c-nav"><a href="index.html">Home</a></li>
-            <li class="flex-c-nav"><a href="faq.html">Frequently Asked Questions</a></li>
-            <li class="flex-c-nav"><a href="contact-us.html">Contact Us</a></li>
-            <li class="flex-c-nav"><a href="team.html">Meet Our Team</a></li>
-            <li class="flex-c-nav"><a href="products.html">What We Do</a></li>
-            <li class="flex-c-nav"><a href="about-us.html">About Us</a></li>
-          </ul>
-        </nav>
- 
-  </footer>
+      <div class="w3-third w3-theme w3-padding-small">
+        <strong class="footer-strong">News and Events</strong>
+        <ul class="ul-w3-no-bullets">
+          <li><a href="https://www.theartnewspaper.com/">The Art Newspaper</a></li>
+          <li><a href="https://artsandculture.google.com/"> Google Arts & Culture</a></li>
+        </ul>
+      </div>
+
+      <div class="foot foot w3-third w3-theme w3-padding-small">
+        <strong class="footer-strong">Site Webmaster</strong>
+        <ul class="ul-w3-no-bullets">
+          <li><a href="mailto:cican42814@gmail.com">Email Webmaster</a></li>
+          <li>&copy; 2024</li>
+        </ul>
+      </div>
+
+      <nav class="w3-third w3-theme w3-padding-small">
+        <ul class="ul-w3-no-bullets">
+          <li class="nav-grid-c "><a href="index.html">Home</a></li>
+          <li class="nav-grid-c"><a href="faq.html">Frequently Asked Questions</a></li>
+          <li class="nav-grid-c"><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="team.html">Meet Our Team</a></li>
+          <li class="nav-grid-c"><a href="products.html">What We Do</a></li>
+          <li class="nav-grid-c"><a href="about-us.html"> About Us</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!-- END MAIN -->
+  </div>
+
+  <script>
+    // Get the Sidebar
+    var mySidebar = document.getElementById("mySidebar");
+
+    // Get the DIV with overlay effect
+    var overlayBg = document.getElementById("myOverlay");
+
+    // Toggle between showing and hiding the sidebar, and add overlay effect
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+      } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = "none";
+      overlayBg.style.display = "none";
+    }
+  </script>
+
 
 </body>
 

@@ -90,6 +90,7 @@
 
 .main {
     margin-top: 100px;
+    height: auto;
 }/*this attribute is working for all site pages*/
 
 .flex-main {
