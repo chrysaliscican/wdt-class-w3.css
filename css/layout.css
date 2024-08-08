@@ -1,0 +1,274 @@
+.body-team {
+    background-color: black;
+    min-height: 100vh;
+    font-family: Aptos, Verdana, sans-serif;
+}/* This forces the body to have a bottom to it, not a perpetual one */
+
+.header {
+    position: relative;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    clear: both;
+}/*fixed working well on all site pages*/
+
+.header-team {
+  position: relative;
+  padding: 5px 15px;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+/*fixed working well on all site pages*/
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 5px;        
+    z-index: 2;
+    width: auto;
+    max-width: 10vw;
+    height: 80px;
+
+}/*absolute working well for index.html*/
+
+.logo-team {
+    
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    /* z-index: 2; */
+    width: auto;
+    max-width: 10vw;
+    height: 80px;
+}
+
+.nav {
+    position: sticky;
+    top: 90px;
+
+}/*sticky is working on all subsequent site pages*/
+
+.nav a {
+    float: left;
+    padding: 14px 16px;
+}
+
+.flex-p-nav {
+
+    flex-direction: column ;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 10px;
+    margin-top: 0px;
+    max-width: 17vw;
+}
+
+.flex-c-nav {
+    padding-bottom: 5px;
+}
+
+.flex-p-footer-nav {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-top: 25px;
+    max-width: 17vw;
+}
+
+.aside {
+    float: right;
+    position: sticky;
+    top: 90px;
+    clear: both;
+}/*float right and sticky are working on all site pages*/
+
+.main {
+    margin-top: 100px;
+}/*this attribute is working for all site pages*/
+
+.flex-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.article {
+    width: 800px;
+    border: 5px dotted #0000ff;
+    padding: 20px;
+    margin: 40px 40px;
+    box-sizing: border-box;
+    clear: both;
+}/*all of these layout attributes are working well for index.html - they are only needed on this one site page*/
+
+.flex-p-article {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;/* setting to 75vh caused text from bios to overlap footer*/
+    align-items: flex-start;
+    gap: 0.75em;
+}
+
+.h2-team {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 5px dotted #0000ff;
+    padding: 10px;
+    text-align: center;
+    max-height: 50px;
+    margin-left: 40px;
+    justify-content: center;
+    flex: 0 3 200px;    
+}
+
+.figcaption {
+    max-width: 275px;
+}/*this layout attribute is working well for index.html - they are only needed on this one site page*/
+
+.section {
+    display: table;
+}/*this layout attribute is working well for index.html - they are only needed on this one site page*/
+
+.flex-section1 {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 5px dotted #0000ff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-height: inherit;/*if there is less content in child container than others, container will not be as tall as others*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;/* sets minimum width of each of these child containers. */
+}/*max-width: will cause contents in item to fly out of child container*/
+
+.flex-section2 {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 5px dotted #0000ff;
+    padding: 15px;
+    text-align: center;
+    max-height: inherit;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    flex: 0.5 1 200px;
+    align-self: center;
+}
+
+.flex-section3 {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 5px dotted #0000ff;
+    padding: 10px;
+    text-align: center;
+    max-height: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    flex: 0 1 200px;
+    align-self: flex-end;
+}
+
+.flex-img1 {
+    max-width: 100%;
+    height: auto;
+}/*must put constraints on images or they stretch to fit flex containers*/
+
+.flex-img2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-img3 {
+    max-width: 100%;
+    height: auto;
+}
+
+.form {
+    width: 65%;
+    margin: auto;
+    /*This automatically centers the form*/
+}/*width and margin are working well for contact-us.html - they are only needed on this one site page*/
+
+.daniels-fig {
+    float: left;
+}
+
+.movie-fig {
+    float: right;
+}
+
+.physics-fig {
+    float: left;
+}
+
+.math-fig {
+    float: right;
+}
+
+.kurata-fig {
+    float: left;
+}
+
+.jobufur-fig {
+    float: right;
+}
+
+.jobuhoodie-fig {
+    float: left;
+}
+
+.me-fig {
+    float: right;
+}
+
+.pre2 {
+    margin: 0;
+}
+
+.form {
+    width: 65%;
+    margin: auto;
+}/*This automatically centers the form*/
+/*width and margin attributes are working for contact-us.html - it is only needed on this one site page*/
+
+.submit {
+    border-radius: 12px;
+    padding: 10px 50px;
+} /*first parameter is top/bottom, second is left/right*/
+
+.reset {
+    border-radius: 6px;
+}
+
+.flex-p-footer {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.flex-footer1 {
+    flex-flow: column wrap;
+    padding: 5px;
+}
+
+.flex-footer2 {
+    order: -1;
+    flex-flow: column wrap;
+    padding: 5px;
+}
+
+.flex-footer3 {
+    flex-flow: column wrap;
+}
+

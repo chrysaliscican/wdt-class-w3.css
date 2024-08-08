@@ -1,0 +1,179 @@
+.body {
+    background-color: black;
+}/*this attribute is working for all site pages*/
+
+.header {
+    background-color: blue;
+    text-align: center;
+}/*backgorund and color and text align working on all site pages*/
+
+.header-team {
+    background-color: blue;
+    text-align: center;
+}
+
+.meet-team {
+    text-align: center;
+}
+
+.nav {
+    background-color: #333;
+    font-family: Aptos, Verdana, sans-serif;
+    text-align: center;
+}/*all of these attributes are working for all site pages. Instructor's code adds a black background color to the top navigation */
+
+
+.nav a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}/*Instructor's code styles the links inside the navigation bar */
+
+/* .nav a:hover {
+    background-color: white;
+    color: black;
+}Instructor's code changes the color of links on hover */
+
+/* .nav a:active {
+    background-color: blue;
+    color: white;
+}/* Instructor's code adds a color to the active/current link */
+
+.flex-p-nav {
+    font-size: 17px;
+}
+
+/* .flex-p-nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.flex-p-nav a:active {
+    background-color: blue;
+    color: white;
+} */
+
+.ul {
+    background-color: black;
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: 1em;
+}/*all of these attributes are working for all site pages*/
+
+.main {
+    background-color: black;
+    color: #ffaa87;
+}/*Main is parent. Section is child of main. P is child of section. So section and p elements should inherit properties of main.*/
+
+legend {
+    font-family: Aptos, Verdana, sans-serif;
+}/*this attribute is working for contact-us.html - it is only needed on this one site page*/
+
+.submit {
+    background-color:#ffff00;
+
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.reset{
+    background-color: #ffff00;
+    border-radius: 6px;
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: 0.75em;
+}
+
+.success {
+    text-align: center;
+    width: 100vw;
+    margin-top: 12%;
+}
+
+.footer {
+    background-color: blue;
+    text-align: center;
+    font-family: Aptos, Verdana, sans-serif;
+    color: #ffaa87;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.flex-p-footer {
+    color: #ffaa87;
+}
+
+.footer-strong {
+    font-family: Aptos, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-wrap: wrap;
+}
+
+.ul-flex-footer3 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pre1 {
+    font-family: Aptos, Verdana, sans-serif;
+}
+
+.pre2 {
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Aptos, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffaa87;
+}
+
+p {
+    font-family: Aptos, Verdana, sans-serif;
+    font-weight: normal;
+    color: #ffaa87;
+}
+
+img {
+    width: 256px;
+    height: 169px;
+}
+
+figcaption {
+    font-family: Aptos, Verdana, sans-serif;
+    font-size: 0.75em;
+    font-style: italic;
+    color: #ffaa87;
+}
+
+/*unvisited link*/
+a:link {
+    font-family: Aptos, Verdana, sans-serif;
+    color: #ffff00;
+    text-decoration: none; 
+}
+
+/*visited link*/
+a:visited {
+    font-family: Aptos, Verdana, sans-serif;
+    color: #ffff00;
+    
+}
+
+/*mouse over link*/
+a:hover {
+    font-family: Aptos, Verdana, sans-serif;
+    background-color: black;
+    color: #ffff00;
+}
+
+/* Add a color to the active/current link */
+a:active {
+    font-family: Aptos, Verdana, sans-serif;
+    background-color: #ffaa87;
+    color: black;
+}

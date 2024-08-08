@@ -1,0 +1,19 @@
+table caption {
+  color: #ffaa87;
+  font-family: Aptos, Verdana, sans-serif;
+  font-weight: 800;
+  font-size: 1em;
+}
+
+table {
+  border: 1px solid #ffaa87;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ffaa87;
+  font-family: Aptos, Verdana, sans-serif;
+  color: #ffaa87;
+  text-align: left;
+  padding: .2em .7em;
+}

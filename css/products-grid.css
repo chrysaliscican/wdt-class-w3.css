@@ -1,0 +1,160 @@
+.html-grid {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.body-grid {
+    background-color: black;
+    font-family: Aptos, Verdana, sans-serif;
+    color: #ffaa87;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: auto auto auto auto;
+    min-height: 100vh;
+}
+
+.header-grid {
+    background-color: blue;
+    min-height: 90px;
+    display: grid;
+    grid-row: 1 / 1;
+    grid-column: 1 / span 2;
+    grid-template-columns: 0.5fr 3fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+}
+
+.logo-grid {
+    max-width: 10vh;
+}
+
+.h1-grid {
+    justify-self: start;
+    margin-left: 0;
+}
+
+.nav-grid {
+    background-color: blue;
+    padding-top: 10px;
+    display: grid;
+    grid-row: 2 / 2;
+    grid-column: 1/ 1;
+    justify-content: center;
+}
+
+.nav-grid-c {
+    padding-bottom: 5px;
+}
+
+.nav-ul-grid {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-grid {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    grid-row: 2 / 3;
+    grid-column: 2 / 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+        "sec1 sec1"
+        "sec2 sec2"
+        "sec3 ."
+        ". sec4"
+        "sec5 ."
+}
+
+.sec1 {
+    grid-area: sec1;
+    display: grid;
+}
+
+.sec1-h2 {
+    justify-self: center;
+}
+
+.sec2 {
+    grid-area: sec2;
+}
+
+.sec3 {
+    grid-area: sec3;
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sec4 {
+    grid-area: sec4;
+    border: 5px dotted blue;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.sec5 {
+    grid-area: sec5;
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.p-grid {
+    text-align: center;
+}
+
+.footer-grid {
+    display: grid;
+    gap: 10px;
+    grid-row: 4 / 4;
+    grid-column: 1 / span 2;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    align-content: end;
+}
+
+.foot {
+    background-color: blue;
+    padding: 7px;
+    margin: 0
+}
+
+.footer-strong-grid {
+    font-family: Aptos, Verdana, sans-serif;
+    text-wrap: wrap;
+}
+
+/*unvisited link*/
+a:link {
+    font-family: Aptos, Verdana, sans-serif;
+    color: #ffff00;
+}
+
+/*visited link*/
+a:visited {
+    font-family: Aptos, Verdana, sans-serif;
+    color: #ffff00;
+}
+
+/*mouse over link*/
+a:hover {
+    font-family: Aptos, Verdana, sans-serif;
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+a:active {
+    font-family: Aptos, Verdana, sans-serif;
+    background-color: blue;
+    color: white;
+    padding: 14px 16px;
+}
