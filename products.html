@@ -35,8 +35,7 @@
   <!-- Navbar -->
   <div class="w3-top" id="topnavbar">
     <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
-      <!-- <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-black w3-large w3-theme" href="javascript:void(0)"
-        onclick="w3_open()"><i class="fa fa-bars"></i></a> -->
+
       <img class="logo-w3" src="images/logo4-resized.png"
         alt="site logo with two Earths separated by an explosive flash with the initials for the site">
       <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black button-w3-text-yellow">Home</a>
@@ -59,24 +58,24 @@
   </div>
 
   <!-- Sidebar -->
-<!--   <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme w3-animate-left" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme w3-animate-left" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()"
       class="w3-right w3-xlarge w3-sidebar-js-padding w3-hover-black w3-hide-large" title="Close Menu">
       <i class="fa fa-remove"></i>
-    </a> -->
-    <!-- <h4 class="w3-bar-item"><b>Menu</b></h4> -->
-<!--     <a class="w3-bar-item w3-button w3-hover-black" href="#What">What We Do</a>
-    </nav> -->
+    </a>
+    <h4 class="w3-bar-item">The Daniels - Their Movie and Me</h4>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#What">What We Do</a>
+    </nav>
 
   <!-- Overlay effect when opening sidebar on small screens -->
   <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
     id="myOverlay"></div>
 
   <!-- Main content: shift it to the right by 175 pixels when the sidebar is visible -->
-  <div class="w3-main .w3-padding-top-32"  id="What">
+  <div class="w3-main w3-padding-top-32" style="margin-left:175px" id="What">
 
-    <main class="main-grid w3-padding-large">
-      <section class="sec sec1">
+    <main class="w3-container w3-padding-small ">
+      <section class="sec sec1 w3-center">
         <h1 class="sec1-h2 w3-padding-top-72">What We Do</h1>
         <p class="p-grid">
           Synergistically building sites and software that inform, inspire, and increase productivity is our focus.
@@ -87,13 +86,14 @@
       </section>
 
 
-      <h2 class="sec sec2">Meet Our Team</h2>
+      <h2 class="sec sec2 w3-center">Meet Our Team</h2>
 
-      <section class="sec sec3">
+      <div class="w3-col">
+      <section class="sec sec3 w3-third border-blue-dotted w3-padding-small margin-w3-team w3-center">
         <h3>Ellip Sis</h3>
-        <h2>Software Development Manager</h2>
+        <h4>Software Development Manager</h4>
         <figure>
-          <img src="images/humanoid-ti.png" alt="humanoid staring at ground" class="grid-img1">
+          <img src="images/humanoid-ti.png" alt="humanoid staring at ground" class="w3-image">
           <figcaption>Ellip at what is left of Yellowstone National Park</figcaption>
         </figure>
         <p>Skillfully builds the skeleton of our site with HTML (HyperText Markup Language). Produces a pleasing
@@ -102,11 +102,11 @@
           the benefits of responsive web design.</p>
       </section>
 
-      <section class="sec sec4">
+      <section class="sec sec4 w3-third border-blue-dotted w3-padding-small margin-w3-team w3-center">
         <h3>Semi Colon</h3>
         <h4>Communications Manager</h4>
         <figure>
-          <img src="images/humanform-ti.png" alt="human form facing forward" class="grid-img2">
+          <img src="images/humanform-ti.png" alt="human form facing forward" class="w3-image">
           <figcaption>Semi's third mugshot</figcaption>
         </figure>
         <p>Finds an eclectic array of content to share with the world... and beyond.
@@ -118,12 +118,12 @@
         </p>
       </section>
 
-      <section class="sec sec5">
+      <section class="sec sec5 w3-third  border-blue-dotted w3-right w3-padding-small margin-w3-team w3-center">
         <h3>Hash Tag</h3>
         <h4>Operations Manager</h4>
         <figure>
           <img src="images/humanform2-ti.png" alt="hypnotic human figure facing forward with red eyes"
-            class="grid-img3">
+            class="w3-image ">
           <figcaption>Hash dematerializing at the end of a long day's work.</figcaption>
         </figure>
         <p>Orchestrates funding from private donors with finesse.
@@ -131,6 +131,7 @@
           wanting to gain experience in IT services through the utilization of volunteer programs for youth and adults.
         </p>
       </section>
+    </div>
     </main>
 
     <!-- Grid -->

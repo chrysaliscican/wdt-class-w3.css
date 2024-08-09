@@ -46,7 +46,7 @@ section {
 }
 
 .footer-w3 {
-    height: auto;
+    min-height: auto;
 }
 
 .ul-w3-no-bullets {
@@ -848,6 +848,9 @@ a {
     margin-left: -16px;
     margin-right: -16px;
 }
+
+
+
 
 .w3-content,
 .w3-auto {
