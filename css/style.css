@@ -29,29 +29,9 @@
     font-size: 17px;
 }/*Instructor's code styles the links inside the navigation bar */
 
-/* .nav a:hover {
-    background-color: white;
-    color: black;
-}Instructor's code changes the color of links on hover */
-
-/* .nav a:active {
-    background-color: blue;
-    color: white;
-}/* Instructor's code adds a color to the active/current link */
-
 .flex-p-nav {
     font-size: 17px;
 }
-
-/* .flex-p-nav a:hover {
-    background-color: white;
-    color: black;
-}
-
-.flex-p-nav a:active {
-    background-color: blue;
-    color: white;
-} */
 
 .ul {
     background-color: black;

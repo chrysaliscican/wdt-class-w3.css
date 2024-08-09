@@ -181,21 +181,6 @@ button,
     appearance: button
 }
 
-/* button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
-    border-style: none;
-    padding: 0
-} */
-
-/*button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
-    outline: 1px dotted ButtonText
-}*/
-
 fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
@@ -219,24 +204,11 @@ textarea {
     padding: 0
 }
 
-/* [type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
-    height: auto
-} */
-
 [type=search] {
     appearance: textfield;
     outline-offset: -2px
 }
 
-/* [type=search]::-webkit-search-decoration {
-    appearance: none
-}
-
- ::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit
-} */
 
 /* End extract */
 html,
@@ -413,10 +385,6 @@ a {
     font-size: 16px;
     color: white !important;
 }
-
-/*.w3-btn:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}*/
 
 .w3-btn,
 .w3-button {
@@ -658,8 +626,6 @@ a {
     overflow-x: auto;
 }
 
-/* .w3-container:after,
-.w3-container:before, */
 .w3-panel:after,
 .w3-panel:before,
 .w3-row:after,
@@ -1048,7 +1014,6 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   /*  -ms-transform: translate(-50%, -50%); */
 }
 
 .w3-display-left {
