@@ -35,8 +35,8 @@
   <!-- Navbar -->
   <div class="w3-top" id="topnavbar">
     <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
-      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-black w3-large w3-theme" href="javascript:void(0)"
-        onclick="w3_open()"><i class="fa fa-bars"></i></a>
+      <!-- <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-black w3-large w3-theme" href="javascript:void(0)"
+        onclick="w3_open()"><i class="fa fa-bars"></i></a> -->
       <img class="logo-w3" src="images/logo4-resized.png"
         alt="site logo with two Earths separated by an explosive flash with the initials for the site">
       <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black button-w3-text-yellow">Home</a>
@@ -59,33 +59,27 @@
   </div>
 
   <!-- Sidebar -->
-  <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme w3-animate-left" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()"
+  <!-- <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme w3-animate-left" id="mySidebar"> -->
+    <!-- <a href="javascript:void(0)" onclick="w3_close()"
       class="w3-right w3-xlarge w3-sidebar-js-padding w3-hover-black w3-hide-large" title="Close Menu">
       <i class="fa fa-remove"></i>
-    </a>
+    </a> -->
     <!-- <h4 class="w3-bar-item"><b>Menu</b></h4> -->
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Daniels">The Daniels</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Movie">Their Movie</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Physics">Physics</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Mathematics">Mathematics</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Art">Art</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Me">Me</a>
-  </nav>
+   <!--  <a class="w3-bar-item w3-button w3-hover-black" href="#Meet">Meet Our Team</a>
+  </nav> -->
 
   <!-- Overlay effect when opening sidebar on small screens -->
   <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
     id="myOverlay"></div>
 
   <!-- Main content: shift it to the right by 175 pixels when the sidebar is visible -->
-  <div class="w3-main w3-padding-top-32" style="margin-left:175px">
+  <div class="w3-main w3-padding-top-32"  id="Meet">
+    <h1 class="h2-team w3-padding-64">Meet Our Team</h1>
 
-    <article class="flex-p-article">
-      <h2 class="h2-team">Meet Our Team</h2>
-
+    <div class="flex-p-article w3-padding">
       <section class="flex-section1">
-        <h3>Ellip Sis</h3>
-        <h4>Software Development Manager</h4>
+        <h2>Ellip Sis</h2>
+        <h3>Software Development Manager</h3>
         <figure>
           <img src="images/humanoid-ti.png" alt="humanoid staring at ground" class="flex-img1">
           <figcaption>Ellip at what is left of Yellowstone National Park</figcaption>
@@ -96,8 +90,8 @@
       </section>
 
       <section class="flex-section2">
-        <h3>Semi Colon</h3>
-        <h4>Communications Manager</h4>
+        <h2>Semi Colon</h2>
+        <h3>Communications Manager</h3>
         <figure>
           <img src="images/humanform-ti.png" alt="human form facing forward" class="flex-img2">
           <figcaption>Semi's third mugshot</figcaption>
@@ -112,8 +106,8 @@
       </section>
 
       <section class="flex-section3">
-        <h3>Hash Tag</h3>
-        <h4>Operations Manager</h4>
+        <h2>Hash Tag</h2>
+        <h3>Operations Manager</h3>
         <figure>
           <img src="images/humanform2-ti.png" alt="hypnotic human figure facing forward with red eyes"
             class="flex-img3">
@@ -127,7 +121,7 @@
         </p>
       </section>
 
-    </article>
+    </div>
     </main>
 
     <!-- Grid -->

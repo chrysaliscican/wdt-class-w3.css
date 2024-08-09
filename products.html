@@ -35,8 +35,8 @@
   <!-- Navbar -->
   <div class="w3-top" id="topnavbar">
     <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
-      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-black w3-large w3-theme" href="javascript:void(0)"
-        onclick="w3_open()"><i class="fa fa-bars"></i></a>
+      <!-- <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-black w3-large w3-theme" href="javascript:void(0)"
+        onclick="w3_open()"><i class="fa fa-bars"></i></a> -->
       <img class="logo-w3" src="images/logo4-resized.png"
         alt="site logo with two Earths separated by an explosive flash with the initials for the site">
       <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black button-w3-text-yellow">Home</a>
@@ -59,30 +59,25 @@
   </div>
 
   <!-- Sidebar -->
-  <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme w3-animate-left" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()"
+<!--   <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme w3-animate-left" id="mySidebar">
+    <!-- <a href="javascript:void(0)" onclick="w3_close()"
       class="w3-right w3-xlarge w3-sidebar-js-padding w3-hover-black w3-hide-large" title="Close Menu">
       <i class="fa fa-remove"></i>
-    </a>
+    </a> -->
     <!-- <h4 class="w3-bar-item"><b>Menu</b></h4> -->
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Daniels">The Daniels</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Movie">Their Movie</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Physics">Physics</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Mathematics">Mathematics</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Art">Art</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Me">Me</a>
-  </nav>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#What">What We Do</a>
+    </nav>
 
   <!-- Overlay effect when opening sidebar on small screens -->
   <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
-    id="myOverlay"></div>
+    id="myOverlay"></div> -->
 
   <!-- Main content: shift it to the right by 175 pixels when the sidebar is visible -->
-  <div class="w3-main w3-padding-top-32" style="margin-left:175px">
+  <div class="w3-main .w3-padding-top-32"  id="What">
 
     <main class="main-grid">
       <section class="sec sec1">
-        <h2 class="sec1-h2">What We Do</h2>
+        <h1 class="sec1-h2 w3-padding-top-72">What We Do</h1>
         <p class="p-grid">
           Synergistically building sites and software that inform, inspire, and increase productivity is our focus.
         </p>
@@ -96,7 +91,7 @@
 
       <section class="sec sec3">
         <h3>Ellip Sis</h3>
-        <h4>Software Development Manager</h4>
+        <h2>Software Development Manager</h2>
         <figure>
           <img src="images/humanoid-ti.png" alt="humanoid staring at ground" class="grid-img1">
           <figcaption>Ellip at what is left of Yellowstone National Park</figcaption>
@@ -105,8 +100,6 @@
           effects via general CSS (Cascading Style Sheets) and CSS Box Model. Utilizes CSS Flexbox so our audiences
           enjoy
           the benefits of responsive web design.</p>
-
-
       </section>
 
       <section class="sec sec4">

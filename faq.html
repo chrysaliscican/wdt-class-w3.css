@@ -35,8 +35,8 @@
   <!-- Navbar -->
   <div class="w3-top" id="topnavbar">
     <div class="w3-bar w3-theme w3-top w3-right-align w3-large">
-      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-black w3-large w3-theme" href="javascript:void(0)"
-        onclick="w3_open()"><i class="fa fa-bars"></i></a>
+<!--       <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-black w3-large w3-theme" href="javascript:void(0)"
+        onclick="w3_open()"><i class="fa fa-bars"></i></a> -->
       <img class="logo-w3" src="images/logo4-resized.png"
         alt="site logo with two Earths separated by an explosive flash with the initials for the site">
       <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black button-w3-text-yellow">Home</a>
@@ -60,17 +60,14 @@
 
   <!-- Sidebar -->
   <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme w3-animate-left" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()"
+<!--     <a href="javascript:void(0)" onclick="w3_close()"
       class="w3-right w3-xlarge w3-sidebar-js-padding w3-hover-black w3-hide-large" title="Close Menu">
       <i class="fa fa-remove"></i>
-    </a>
+    </a> -->
     <!-- <h4 class="w3-bar-item"><b>Menu</b></h4> -->
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Daniels">The Daniels</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Movie">Their Movie</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Physics">Physics</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Mathematics">Mathematics</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Art">Art</a>
-    <a class="w3-bar-item w3-button w3-hover-black" href="#Me">Me</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#FAQ">Frequently Asked Question</a>
+    <a class="w3-bar-item w3-button w3-hover-black" href="#table">Soundtrack</a>
+   
   </nav>
 
   <!-- Overlay effect when opening sidebar on small screens -->
@@ -78,23 +75,23 @@
     id="myOverlay"></div>
 
   <!-- Main content: shift it to the right by 175 pixels when the sidebar is visible -->
-  <div class="w3-main w3-padding-top-32" style="margin-left:175px">
+  <div class="w3-main w3-padding-top-32" style="margin-left:175px" id="FAQ" >
 
     <main class="main">
-      <section id="FAQ">
-        <h2>Frequently Asked Questions</h2>
-        <h3>How often is this site updated?</h3>
+      <section class="w3-padding-large">
+        <h1>Frequently Asked Questions</h1>
+        <strong>How often is this site updated?</strong>
         <p>This site is updated weekly.</p>
-        <h3>How is this site funded, and what options are available for anyone wanting to fund a website for the arts?
-        </h3>
+        <strong>How is this site funded, and what options are available for anyone wanting to fund a website for the arts?
+        </strong>
         <p>This site is privately funded, however feel free to visit the <a href="https://www.arts.gov"
             target="_blank">National Endowment for the Arts</a> for funding options.</p>
-        <h3>How often should I get my engine oil flushed?</h3>
+        <strong>How often should I get my engine oil flushed?</strong>
         <p>Perhaps a site about automotive maintenance would be a better choice for answering your question.</p>
-        <h3>Which is better, mousse or gel?</h3>
+        <strong>Which is better, mousse or gel?</strong>
         <p>That is a personal preference and outside the scope of this site.</p>
-        <h3>What are some of the songs on the <q>Everything Everywhere All at Once</q> soundtrack?</h3>
-        <p>Below are some songs from the Everything Everywhere All at Once Soundtrack.</p>
+        <strong>What are some of the songs on the <q>Everything Everywhere All at Once</q> soundtrack?</strong>
+        <p id="table">Below are some songs from the Everything Everywhere All at Once Soundtrack.</p>
         <table>
           <caption>Table with Song Titles, Songwriters, and Song Lengths</caption>
           <thead>
@@ -171,7 +168,7 @@
 
       </section>
 
-      <section id="NewsEvents">
+      <section id="NewsEvents" class="w3-padding-large">
         <h2>News and Events</h2>
         <p> Feel free to visit <a href="https://www.theartnewspaper.com/" target="_blank">The Art Newspaper</a> to keep
           up
